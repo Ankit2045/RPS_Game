@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    background-color: darkblue;
+    height: 10vh;
+    line-height: 10vh;
+}
+#play{
+    height: 5vh;
+}
+img{
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    height: 10vh;
+}
+.options{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 4rem;
+    background-color: antiquewhite;
+}
+
+/* options */
+.rock{
+    display: flex;
+    align-items: center;
+}
+.rock:hover{
+    cursor: pointer;
+    background-color: black;
+    border-radius: 30%;
+    
+}
+.paper{
+    display: flex;
+    align-items: center;
+    
+}
+.paper:hover{
+    cursor: pointer;
+    background-color: black;
+    border-radius: 30%;
+}
+.scissors{
+    display: flex;
+    align-items: center;
+}
+.scissors:hover{
+    cursor: pointer;
+    background-color: black;
+    border-radius: 30%;
+}
+
+
+
+.score-board{
+    display: flex;
+    justify-content: center;
+}
+.user-score{
+    border: 1px solid black;
+    width: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.comp-score{
+    border: 1px solid black;
+    width: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
