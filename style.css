@@ -2,9 +2,12 @@
     margin: 0;
     padding: 0;
 }
+
+/* heading */
 h1{
     text-align: center;
-    background-color: darkblue;
+    background-color: #0B0014;
+    color: white; 
     height: 10vh;
     line-height: 10vh;
 }
@@ -12,16 +15,9 @@ h1{
     height: 5vh;
 }
 img{
-    border-radius: 50%;
-    border: 1px solid black;
+    border-radius: 80%;
 }
-.button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid black;
-    height: 10vh;
-}
+
 .options{
     display: flex;
     justify-content: center;
@@ -34,11 +30,13 @@ img{
 .rock{
     display: flex;
     align-items: center;
+    
 }
 .rock:hover{
+    opacity: 0.8;
     cursor: pointer;
     background-color: black;
-    border-radius: 30%;
+    border-radius: 50%;
     
 }
 .paper{
@@ -47,18 +45,20 @@ img{
     
 }
 .paper:hover{
+    opacity: 0.8;
     cursor: pointer;
     background-color: black;
-    border-radius: 30%;
+    border-radius: 50%;
 }
 .scissors{
     display: flex;
     align-items: center;
 }
 .scissors:hover{
+    opacity: 0.8;
     cursor: pointer;
     background-color: black;
-    border-radius: 30%;
+    border-radius: 50%;
 }
 
 
@@ -66,18 +66,45 @@ img{
 .score-board{
     display: flex;
     justify-content: center;
+    height: 10vh;
+    margin-top: 2rem;
+    gap: 20px;
 }
 .user-score{
-    border: 1px solid black;
     width: 10vh;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    gap: 10px;
 }
 .comp-score{
-    border: 1px solid black;
     width: 10vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    
+
+}
+#msg{
+    height: 5rem;
+    width: 15rem;
+    background-color: #0B0014;
+    color: white;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif
+}
+
+p{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif
 }
